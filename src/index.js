@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
-import ToDoApp from './reducers';
+import toDoApp from './reducers';
 
 const store = createStore(toDoApp);
 

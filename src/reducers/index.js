@@ -1,7 +1,7 @@
 import {ADD_TODO} from '../actions';
 
 const initialState = {
-    toDoList = []
+    toDoList: []
 };
 
 export default function toDoApp(state = initialState, action) {

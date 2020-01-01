@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 
-let AddToDO = ({ dispatch }) => {
+let AddToDo = ({ dispatch }) => {
   let input;
   return (
     <Form
@@ -37,6 +37,6 @@ let AddToDO = ({ dispatch }) => {
   );
 };
 
-AddToDO = connect()(AddToDo);
+AddToDo = connect()(AddToDo);
 
-export default AddToDO;
+export default AddToDo;

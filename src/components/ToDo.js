@@ -4,7 +4,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 
 const ToDo = ({ title }) => <ListGroup.Item>{title}</ListGroup.Item>;
 
-ToDo.PropTypes = {
+ToDo.propTypes = {
   title: PropTypes.string.isRequired
 };
 
